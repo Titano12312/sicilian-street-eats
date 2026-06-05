@@ -77,14 +77,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
-      { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary" },
-      { name: "twitter:site", content: "@Lovable" },
+      { title: "Nni Franco U Vastiddaru — Paninoteca a Palermo" },
+      { name: "description", content: "Street food siciliano nel cuore di Palermo. Panino con la milza, panelle, arancine e specialità servite al banco fino a tarda notte." },
+      { property: "og:title", content: "Nni Franco U Vastiddaru" },
+      { property: "og:description", content: "Paninoteca storica in Via Vittorio Emanuele — street food palermitano dal cuore antico." },
+      { property: "og:type", content: "restaurant" },
+      { name: "twitter:card", content: "summary_large_image" },
     ],
     links: [
       {
