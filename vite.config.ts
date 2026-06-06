@@ -12,4 +12,9 @@ export default defineConfig({
     // nitro/vite builds from this
     server: { entry: "server" },
   },
+  // Build target Cloudflare Pages (advanced mode with _worker.js).
+  // Output goes to dist/ with dist/_worker.js, ready for `wrangler pages deploy dist`.
+  nitro: {
+    preset: "cloudflare-pages",
+  },
 });
